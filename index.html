@@ -10,10 +10,13 @@
 <body>
   <h1>i hate my life</h1>
   <?php
-    $directory = scandir("files");
-	foreach ($directory as $file) {
-	    echo '<p><button id="$file" onclick="play()">$file</button></p>';
-	}
-	closedir($directory);
+  $directory = scandir("files");
+  foreach ($directory as $file) {
+      echo '<p><button id="$file" onclick="play()">$file</button></p>';
+  }
+  closedir($directory);
   ?>
+</body>
+
 </html>
+
