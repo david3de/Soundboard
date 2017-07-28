@@ -1,0 +1,17 @@
+button {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #d93434;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #f26d6d;
+  text-decoration: none;
+}
+
+body {
+  background-color: beige;
+{
