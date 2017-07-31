@@ -1,4 +1,4 @@
-function play() {
-    var audio = new Audio('files/' + target.id);
+function play(id) {
+    var audio = new Audio('files/' + id);
     audio.play();
 }
