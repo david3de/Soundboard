@@ -12,10 +12,11 @@
     $directory = scandir("files");
     foreach ($directory as $file) {
         if ($file !== "." && $file !== "..") {
+            $fileTrim = preg_replace('/\\.[^.\\s]{3,4}$/', '', $file);
             echo '<p><button id="';
             echo $file;
             echo '" onclick="play(this.id)">';
-            echo $file;
+            echo $fileTrim;
             echo '</button></p>';
         }
     }
